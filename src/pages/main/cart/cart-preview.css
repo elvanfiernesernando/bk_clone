@@ -1,0 +1,26 @@
+.cart-preview-wrapper {
+    background-color: #F9F4F2;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-preview {
+    max-width: 960px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+}
+
+.cart-preview-left {
+    width: 70%;
+    background-color: red;
+}
+
+.cart-preview-right {
+    width: 30%;
+    background-color: orange;
+}

@@ -1,13 +1,90 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;700&display=swap');
+
+@font-face {
+  font-family: 'FlameBold';
+  src: url('./assets/fonts/FlameBold.otf') format('opentype');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'FlameSans';
+  src: url('./assets/fonts/FlameSans.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'FlameCondensed';
+  src: url('./assets/fonts/FlameCondensed.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'FlameRegular';
+  src: url('./assets/fonts/FlameRegular.otf') format('opentype');
+}
+
+/* Reset CSS */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "FlameSans";
+  line-height: 1.6;
+  color: #404040;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.parallax-bg {
+  background-image: url('./assets/images/BK_bg.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-attachment: fixed; /* Fixed background position */
+}
+
+/* Add your own styles below this line */
+
+@media (min-width: 576px) {
+  /* ... */
+}
+
+@media (min-width: 768px) {
+  /* ... */
+}
+
+@media (min-width: 992px) {
+  /* ... */
+}
+
+@media (min-width: 1024px) {
+  /* ... */
+}
+
+@media (min-width: 1200px) {
+  /* ... */
+}
+
+@media (min-width: 1400px) {
+  /* ... */
 }

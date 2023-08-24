@@ -1,0 +1,135 @@
+footer {
+    height: 125px;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #2d2d2d;
+}
+
+.footer-wrapper {
+    /* max-width: 943px; */
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #fff;
+}
+
+.second-row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 32px;
+}
+
+.footer-left-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 32px;
+}
+
+.footer-title {
+    font-family: 'flameRegular';
+    font-size: 20px;
+}
+
+.footer-subtitle {
+    font-family: 'flameRegular';
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-subtitle-2 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.footer-subtitle-3 {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.third-row {
+    font-family: 'flameSans';
+    display: flex;
+    gap: 8px;
+    color: #919191;
+    font-size: 12px;
+}
+
+@media (max-width: 1024px) {
+    footer {
+        height: auto;
+    }
+
+    .footer-wrapper {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-title {
+        font-size: 24px;
+        margin-bottom: 14px;
+    }
+
+    .footer-subtitle, .footer-subtitle-2 {
+        width: 45%;
+    }
+
+    .footer-subtitle {
+        font-size: 28px;
+    }
+    
+    .footer-subtitle .icon-phone {
+        width: 24px;
+        height: 24px;
+    }
+
+    .footer-subtitle-2 .icon-mail {
+        width: 24px;
+        height: 24px;
+    }
+
+    .second-row {
+        flex-direction: column;
+        justify-content: center;
+        gap: 18px;
+    }
+
+    .footer-subtitle-3 {
+        gap: 8px;
+        margin-bottom: 14px;
+    }
+
+    .fb, .ig, .tw, .yt {
+        width: 24px;
+        height: 24px;
+    }
+
+    .third-row {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 16px;
+        color: #fff;
+        font-size: 16px;
+    }
+
+    .third-row :last-child {
+        color: #919191;
+        margin-top: 16px;
+        padding-bottom: 8px;
+    }
+
+    .third-row p {
+        display: none;
+    }
+}

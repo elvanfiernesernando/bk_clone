@@ -1,0 +1,217 @@
+.menus-wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 24px 0;
+}
+
+.menus-wrapper .item-categories {
+    width: 21%;
+    margin-right: 4%;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+.search {
+    position: relative;
+    margin-bottom: 30px;
+    z-index: 500;
+}
+
+/*  */
+.search .search-button, .search .mobile-search-button {
+    background-color: #ed7801;
+    border: none;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    position: absolute;
+    right: 1px;
+    height: 46px;
+    width: 45px;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.search .mobile-search-button {
+    display: none;
+}
+
+.menus .item-categories span {
+    font-size: 10px;
+    color: #919191;
+}
+
+.awesomplete {
+    display: inline-block;
+    position: relative;
+    z-index: 1000;
+}
+
+.search input {
+    display: block;
+    padding: 12px 60px 12px 17px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px -2px rgba(107,107,107,0.3);
+    outline: none;
+}
+
+.search .clear-search-button {
+    position: absolute;
+    right: 10px;
+    padding: 10px;
+    top: 4px;
+    z-index: 1000;
+    display: none;
+}
+
+.search span.icon-mglass {
+    background: url('https://bkdelivery.co.id/static/website/img/search-putih.png?4557464df5fe') no-repeat;
+    width: 16px;
+    height: 16px;
+    background-size: 16px 16px;
+    display: table;
+    margin: 0 auto;
+}
+
+.search span .icon-search {
+    background: url('https://bkdelivery.co.id/static/website/img/search-grey.png?4557464df5fe') no-repeat;
+    width: 16px;
+    height: 16px;
+    background-size: 16px 16px;
+    display: table;
+    margin: 0px;
+}
+
+.search-modal {
+    min-width: 380px;
+    height: auto;
+    top: 100%;
+    margin-top: 8px;
+}
+
+.search-modal .search-modal-content  {
+    padding: 24px;
+}
+
+.search-modal .search-modal-content .search-items-wrapper img {
+    width: 55px;
+    height: auto;
+}
+
+.search-modal .search-modal-content .search-items-wrapper .search-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Barlow", sans-serif;
+    font-size: 14px;
+}
+
+.search-modal .search-modal-content .search-items-wrapper .search-item :nth-child(1){
+    width: 20%;
+}
+
+.search-modal .search-modal-content .search-items-wrapper .search-item :nth-child(2){
+    width: 50%;
+}
+
+.search-modal .search-modal-content .search-items-wrapper .search-item :nth-child(4){
+    width: 30%;
+    text-align: right;
+}
+
+.search-modal .search-modal-content .search-items-wrapper span {
+    display: block;
+    width: 100%;
+    border-top: 1px  solid #E0E0E0;
+    margin: 20px 0;
+    height: 0;
+    content: " ";
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.categories .categories-box button {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: #FBE6D6;
+    padding: 16px 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.categories .categories-box .active {
+    background-color: #FBAF19;
+}
+
+
+.categories .categories-box button h3 {
+    font-family: 'FlameRegular';
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: normal;
+    margin: 0;
+    color: #502314;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.categories span {
+    font-size: 10px;
+    color: #919191;
+    margin-left: 7px;
+}
+
+.menus-wrapper .item-lists {
+    width: 75%;
+}
+
+.menus-wrapper .item-lists .menu-box-wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+
+.menus-wrapper .item-lists .card {
+    width: 48%;
+    align-items: flex-start;
+}
+
+.menus-wrapper .item-lists .card .menus-descriptions h3 {
+    font-family: "FlameRegular";
+    text-transform: capitalize;
+    font-size: 23px;
+    color: #502314;
+    text-align: left;
+    margin: 5px 0 0 0;
+}
+
+.menus-wrapper .item-lists .card .directions .price {
+    font-size: 17px;
+    font-family: "FlameRegular";
+    color: #502314;
+}
+
+.menus-wrapper .item-lists .card .directions .discounted {
+    color: #D72300;
+}
+
+.menus-wrapper .item-lists .card .directions .original {
+    text-decoration: line-through;
+    font-size: 14px;
+    color: #9F816F;
+    margin-left: 5px;
+    margin-bottom: 6px;
+}
